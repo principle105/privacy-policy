@@ -1,0 +1,26 @@
+:root {
+  --primary: #000000;
+  --secondary: #373530;
+}
+
+*,
+*::before,
+**::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: auto;
+  margin-bottom: 4rem;
+  width: 85%;
+}
+
+.page-title {
+  font-size: 1.40rem;
+  color: var(--primary);
+}
+
+.section p {
+  color: var(--secondary);
+}
