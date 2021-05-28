@@ -20,6 +20,10 @@ button {
   background-color: var(--dark-theme-bg);
 }
 
+.dark-theme #dark-theme-btn {
+  filter: invert(1) hue-rotate(180deg);
+}
+
 body {
   font-family: "Roboto", sans-serif;
   margin: auto;
@@ -41,8 +45,4 @@ body {
   float: right;
   font-size: 2rem;
   background-color: transparent;
-}
-
-#dark-theme-btn:hover {
-  filter: brightness(110%);
 }
