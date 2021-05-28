@@ -9,11 +9,22 @@
   box-sizing: border-box;
 }
 
+button {
+  outline: none;
+  border: none;
+}
+
+.dark-theme {
+  filter: invert(1) hue-rotate(180deg);
+  background-color: black;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   margin: auto;
   margin-bottom: 4rem;
   width: 85%;
+  background-color: white;
 }
 
 .page-title {
@@ -23,4 +34,14 @@ body {
 
 .section p {
   color: var(--secondary);
+}
+
+#dark-theme-btn {
+  float: right;
+  font-size: 2rem;
+  background-color: transparent;
+}
+
+#dark-theme-btn:hover {
+  filter: brightness(110%);
 }
