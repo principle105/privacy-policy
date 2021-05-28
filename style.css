@@ -1,6 +1,7 @@
 :root {
   --primary: #000000;
   --secondary: #373530;
+  --dark-theme-bg: #141414;
 }
 
 *,
@@ -16,7 +17,7 @@ button {
 
 .dark-theme {
   filter: invert(1) hue-rotate(180deg);
-  background-color: black;
+  background-color: var(--dark-theme-bg);
 }
 
 body {
