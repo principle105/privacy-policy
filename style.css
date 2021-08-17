@@ -1,6 +1,6 @@
 :root {
-  --primary: #000000;
-  --secondary: #373530;
+  --primary: #262626;
+  --secondary: #3b3b3b;
   --dark-theme-bg: #141414;
 }
 
@@ -33,12 +33,25 @@ body {
 }
 
 .page-title {
-  font-size: 1.40rem;
   color: var(--primary);
+  font-size: 2.75rem;
+  font-weight: 700;
+}
+
+.section h1 {
+  color: var(--primary);
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 .section p {
   color: var(--secondary);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.sub-section {
+  margin-left: 4em;
 }
 
 #dark-theme-btn {
