@@ -1,61 +1,69 @@
 :root {
-  --primary: #262626;
-  --secondary: #3b3b3b;
-  --dark-theme-bg: #141414;
+    --primary: #37352f;
+    --secondary: #46433d;
+    --dark-theme-bg: #141414;
 }
 
 *,
 *::before,
 **::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 button {
-  outline: none;
-  border: none;
+    outline: none;
+    border: none;
 }
 
 .dark-theme {
-  filter: invert(1) hue-rotate(180deg);
-  background-color: var(--dark-theme-bg);
+    filter: invert(1) hue-rotate(180deg);
+    background-color: var(--dark-theme-bg);
 }
 
 .dark-theme #dark-theme-btn {
-  filter: invert(1) hue-rotate(180deg);
+    filter: invert(1) hue-rotate(180deg);
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  margin: auto;
-  margin-bottom: 4rem;
-  width: 85%;
-  background-color: white;
+    font-family: "Roboto", sans-serif;
+    margin: auto;
+    margin-bottom: 4rem;
+    width: 85%;
+    background-color: white;
 }
 
 .page-title {
-  color: var(--primary);
-  font-size: 2.75rem;
-  font-weight: 700;
+    font-size: 2.75rem;
 }
 
 .section h1 {
-  color: var(--primary);
-  font-size: 2rem;
-  font-weight: 500;
+    font-size: 2rem;
 }
 
-.section p {
-  color: var(--secondary);
-  font-size: 1rem;
-  font-weight: 400;
+.sub-section h2 {
+    font-size: 1.5rem;
+}
+
+.sub-section h2,
+.section h1,
+.page-title {
+    color: var(--primary);
+    font-weight: 500;
+}
+
+.section p,
+.sub-section p {
+    color: var(--secondary);
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 .sub-section {
-  margin-left: 4em;
+    margin-left: 3em;
 }
 
 #dark-theme-btn {
-  float: right;
-  font-size: 2rem;
-  background-color: transparent;
+    float: right;
+    font-size: 2rem;
+    background-color: transparent;
 }
