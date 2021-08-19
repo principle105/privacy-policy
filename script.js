@@ -10,6 +10,6 @@ if (localStorage.getItem("theme") === "dark") {
 // Changing the website theme when the button is clicked
 btn.onclick = () => {
     body.className = body.className ? "" : "dark-theme";
-    btn.innerHTML = body.className ? "🌙" : "💡";
+    btn.innerHTML = body.className ? "💡" : "🌙";
     localStorage.setItem("theme", body.className ? "dark" : "");
 };
