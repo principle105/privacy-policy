@@ -1,4 +1,4 @@
-# [wordPractice Privacy Policy](https://principle105.github.io/wordpractice-privacy-policy/)
+# [wordPractice Privacy Policy](https://principle105.github.io/privacy-policy/)
 
 Privacy policy for the wordPractice Discord bot
 
