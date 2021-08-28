@@ -4,10 +4,9 @@
     --dark-theme-bg: #141414;
 }
 
-*,
-*::before,
-**::after {
+* {
     box-sizing: border-box;
+    padding: 0;
 }
 
 button {
@@ -26,10 +25,12 @@ button {
 
 body {
     font-family: "Roboto", sans-serif;
-    margin: auto;
-    margin-bottom: 4rem;
+    margin: 2em auto;
     width: 85%;
-    background-color: white;
+}
+
+body:not(.before-load) {
+    transition: background-color 0.5s ease;
 }
 
 .page-title {
@@ -63,4 +64,5 @@ body {
     float: right;
     font-size: 2rem;
     background-color: transparent;
+    cursor: pointer;
 }

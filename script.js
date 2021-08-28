@@ -1,11 +1,13 @@
 let btn = document.getElementById("dark-theme-btn");
 let body = document.body;
 
-// Updating the theme when the page is loaded
-if (localStorage.getItem("theme") === "dark") {
-    body.className = "dark-theme";
-    btn.innerHTML = "💡";
-}
+window.onload = function () {
+    // Updating the theme when the page is loaded
+    if (localStorage.getItem("theme") === "dark") {
+        body.className += " dark-theme";
+        btn.innerHTML = "💡";
+    }
+};
 
 // Changing the website theme when the button is clicked
 btn.onclick = () => {
